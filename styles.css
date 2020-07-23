@@ -1,0 +1,196 @@
+body{
+    font: Arial,Helvetica,sans-serif;
+}
+
+#container{
+    width: 1250px;
+    margin: 0px auto;
+    /* border: 1px solid grey; */
+}
+
+#header{
+    height: 100px;
+    padding: 10px 0;
+}
+
+h1 a{
+    font-size: 50px;
+    font-weight: 100;
+    color: purple;
+    text-decoration: none;
+}
+
+#brand{
+    float: left;
+}
+
+#searchBox{
+    float: right;
+    background: linear-gradient(rgb(148, 216, 148),green);
+    background: -webkit-linear-gradient(rgb(148, 216, 148),green);
+    background: -o-linear-gradient(rgb(148, 216, 148),green);
+    background: -moz-linear-gradient(rgb(148, 216, 148),green);
+    width: 400px;
+    height: 60px;
+    padding: 20px 15px 0px 15px;
+    margin-top: 10px;
+}
+
+.text{
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color: orange;
+    background-color: white ;
+    background: white url("icon/search.png") right center no-repeat;
+    /* Horizontally on the right and vertically on center white is used because
+    text will be green if not used background of text needs to be white */
+    border: 1px solid rgb(89, 0, 255);
+}
+
+.submit{
+    float: right;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    background: blueviolet;
+    color: white;
+}
+
+.clear{
+    clear: both;
+}
+
+#menu{
+    height: 65px;
+    background: linear-gradient(#f8f594,#d5d533);
+    background: -webkit-linear-gradient(#f8f594,#d5d533);
+    background: -o-linear-gradient(#f8f594,#d5d533);
+    background: -moz-linear-gradient(#f8f594,#d5d533);
+    padding: 1px 0px ;
+}
+
+ul{
+    list-style: none;
+}
+
+#menu ul li{
+    float: left;
+    padding: 0px 30px;
+    height: 30px;
+    border-right: 1px solid  blue;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: blue;
+    line-height: 30px;
+    transition: font-size 0.5s ease ;
+    -webkit-transition: font-size 0.5s ease ;
+    -moz-transition: font-size 0.5s ease ;
+    -o-transition: font-size 0.5s ease ;
+    -ms-transition: font-size 0.5s ease ;
+}
+
+#menu ul li:last-child{
+    border-right: none;
+}
+
+#menu ul li a:hover, #menu ul li a.active{
+    font-size: 25px;
+    font-weight: bold;
+    color: orange;
+    
+}
+
+#introduction{
+    background: linear-gradient(yellow,green);
+    background: -webkit-linear-gradient(yellow,green);
+    background: -o-linear-gradient(yellow,green);
+    background: -moz-linear-gradient(yellow,green);
+    padding: 30px;
+    margin: 30px 0px;
+    
+}
+
+#introduction h3{
+    font-size: 45px;
+    color: green;
+    font-weight: bold
+}
+
+#introduction p{
+    font-size: 25px;
+    color: blue;
+    text-align: justify;
+}
+
+.sidebar{
+    width: 500px;
+    height: 450px;
+    border: 1px solid green;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: rgb(214, 207, 207);
+    margin-bottom: 30px;
+}
+
+.sidebar h3{
+    color:rgb(170, 11, 11);
+    font-size: 30px;
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color:orangered;
+}
+
+.sidebar ul li a:hover, .sidebar ul li a.active{
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aqua;
+    transition: font-size 0.5s ease ;
+    -webkit-transition: font-size 0.5s ease ;
+    -moz-transition: font-size 0.5s ease ;
+    -o-transition: font-size 0.5s ease ;
+    -ms-transition: font-size 0.5s ease ;
+}
+
+#leftsidebar ul li{
+    padding: 3px 0px 3px 10px;
+    list-style-image: url(icon/arrow.png);
+    
+}
+
+#rightsidebar ul li{
+    padding-bottom: 17px;
+    padding-top: 17px;
+    padding-left: 70px;
+    /* list-style-image: url(icon/tick.png); */
+    background: url(icon/tick.png) no-repeat left center;
+}
+
+#leftsidebar{
+    float: left;
+}
+
+#rightsidebar{
+    float: right;
+}
+
+ .footer{
+     font-size: 20px;
+     font-family: cursive;
+     height: 70px;
+     background:linear-gradient(#F6F390,#D5D593);
+     background:-webkit-linear-gradient(#F6F390,#D5D593);
+     background:-o-linear-gradient(#F6F390,#D5D593);
+     background:-moz-linear-gradient(#F6F390,#D5D593);
+     padding: 15px 0px 15px 30px; 
+     margin-bottom: 30px;
+ }
